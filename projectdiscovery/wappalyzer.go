@@ -9,7 +9,11 @@ import (
 )
 
 func main() {
-	resp, err := http.DefaultClient.Get("https://www.geeksforgeeks.org/how-to-print-string-with-double-quotes-in-golang/")
+	process("https://www.geeksforgeeks.org/how-to-print-string-with-double-quotes-in-golang/")
+}
+
+func process(url string) {
+	resp, err := http.DefaultClient.Get(url)
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -7,8 +7,11 @@ import (
 )
 
 func main() {
-	url := "https://wtotem.com"
-	wapp, err := gowap.Init("./unstppbl/apps.json", true)
+	process("https://wtotem.com","./unstppbl/apps.json" )
+}
+
+func process(url string, inputJson string) {
+	wapp, err := gowap.Init(inputJson, true)
 	if err != nil {
 		log.Fatal(err)
 	}
