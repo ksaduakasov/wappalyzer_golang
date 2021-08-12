@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb3c874-9f72-4a3e-9df4-ea4ed281c86b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/builtWith.com/builtwith_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similartech.com/similartech.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similartech.com/similartech_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unstppbl/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatcms.com/whatcms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatcms.com/whatcms_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wappalyzer/wappalyzer.go" beforeDir="false" afterPath="$PROJECT_DIR$/wappalyzer/wappalyzer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/count.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockstream.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectdiscovery/wappalyzer.go" beforeDir="false" afterPath="$PROJECT_DIR$/projectdiscovery/wappalyzer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webanalyze/webanalyze.go" beforeDir="false" afterPath="$PROJECT_DIR$/webanalyze/webanalyze.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webanalyze/webanalyze_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/webanalyze/webanalyze_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,59 +72,60 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/whatcms.com" />
       <recent name="$PROJECT_DIR$/unstppbl/test" />
       <recent name="$PROJECT_DIR$/unstppbl" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkProcess in awesomeProject20/wappalyzer (4)">
-    <configuration name="go build awesomeProject20/wappalyzer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (3)">
+    <configuration name="go build awesomeProject20/similartech.com" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/wappalyzer/wappalyzer.go" />
-      <package value="awesomeProject20/wappalyzer" />
+      <filePath value="$PROJECT_DIR$/similartech.com/similartech.go" />
+      <package value="awesomeProject20/similartech.com" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkProcess in awesomeProject20/wappalyzer (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$/wappalyzer" />
+      <working_directory value="$PROJECT_DIR$/similartech.com" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject20/wappalyzer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QBenchmarkProcess\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkProcess in awesomeProject20/wappalyzer (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$/wappalyzer" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="awesomeProject20/wappalyzer" />
+      <package value="awesomeProject20/similartech.com" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QBenchmarkProcess\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkProcess in awesomeProject20/wappalyzer (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$/wappalyzer" />
+      <working_directory value="$PROJECT_DIR$/similartech.com" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject20/wappalyzer" />
+      <package value="awesomeProject20/similartech.com" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QBenchmarkProcess\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkProcess in awesomeProject20/wappalyzer (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$/wappalyzer" />
+      <working_directory value="$PROJECT_DIR$/similartech.com" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject20/wappalyzer" />
+      <package value="awesomeProject20/similartech.com" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QBenchmarkProcess\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject20" />
+      <working_directory value="$PROJECT_DIR$/similartech.com" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="awesomeProject20/similartech.com" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QBenchmarkProcess\E$" />
@@ -120,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/wappalyzer (4)" />
-        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/wappalyzer (3)" />
-        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/wappalyzer (2)" />
-        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/wappalyzer (1)" />
-        <item itemvalue="Go Build.go build awesomeProject20/wappalyzer" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (3)" />
+        <item itemvalue="Go Build.go build awesomeProject20/similartech.com" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (2)" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (1)" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +155,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -151,33 +165,33 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="440" y="237" key="#Go_Modules/0.0.1280.800@0.0.1280.800" timestamp="1626335751147" />
-    <state width="1238" height="162" key="GridCell.Tab.0.bottom" timestamp="1627125559869">
+    <state width="1238" height="270" key="GridCell.Tab.0.bottom" timestamp="1628772595888">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1627125559869" />
-    <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.25.1280.707@0.25.1280.707" timestamp="1626968821236" />
-    <state width="1238" height="162" key="GridCell.Tab.0.center" timestamp="1627125559869">
+    <state width="1238" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1628772595888" />
+    <state width="1238" height="277" key="GridCell.Tab.0.bottom/0.25.1280.707@0.25.1280.707" timestamp="1627280428330" />
+    <state width="1238" height="270" key="GridCell.Tab.0.center" timestamp="1628772595888">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="162" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1627125559869" />
-    <state width="1238" height="171" key="GridCell.Tab.0.center/0.25.1280.707@0.25.1280.707" timestamp="1626968821234" />
-    <state width="1238" height="162" key="GridCell.Tab.0.left" timestamp="1627125559868">
+    <state width="1238" height="270" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1628772595888" />
+    <state width="1238" height="277" key="GridCell.Tab.0.center/0.25.1280.707@0.25.1280.707" timestamp="1627280428329" />
+    <state width="1238" height="270" key="GridCell.Tab.0.left" timestamp="1628772595887">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="162" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1627125559868" />
-    <state width="1238" height="171" key="GridCell.Tab.0.left/0.25.1280.707@0.25.1280.707" timestamp="1626968821232" />
-    <state width="1238" height="162" key="GridCell.Tab.0.right" timestamp="1627125559869">
+    <state width="1238" height="270" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1628772595887" />
+    <state width="1238" height="277" key="GridCell.Tab.0.left/0.25.1280.707@0.25.1280.707" timestamp="1627280428328" />
+    <state width="1238" height="270" key="GridCell.Tab.0.right" timestamp="1628772595888">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="162" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1627125559869" />
-    <state width="1238" height="171" key="GridCell.Tab.0.right/0.25.1280.707@0.25.1280.707" timestamp="1626968821235" />
+    <state width="1238" height="270" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1628772595888" />
+    <state width="1238" height="277" key="GridCell.Tab.0.right/0.25.1280.707@0.25.1280.707" timestamp="1627280428330" />
     <state x="267" y="65" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627122428968">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="267" y="65" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1627122428968" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1627124814749">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1627462253041">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1627124814749" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1627462253041" />
   </component>
 </project>

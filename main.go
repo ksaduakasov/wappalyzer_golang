@@ -2,17 +2,25 @@ package main
 
 import (
 	"fmt"
-	"time"
+	"io"
+	"log"
+	"net/http"
 )
 
+func HandleErr(err error) {
+	if err != nil {
+		log.Fatalln(err)
+	}
+}
+
 func main() {
-	numbers := GenerateNumbers(1e7)
+	req, err := http.Get("https://api.builtwith.com/free1/api.json?KEY=4d94c975-7c4c-4a57-b8d9-9091acfdc4ac&LOOKUP=wtotem.com")
+	HandleErr(err)
+	//req.Header.Add("x-api-key", "uJYNOLkDae4BkNGmLIybU8sijWH83g3B8HL5bOy8")
+	defer req.Body.Close()
 
-	t := time.Now()
-	sum := Add(numbers)
-	fmt.Printf("Sequential Add, Sum: %d,  Time Taken: %s\n", sum, time.Since(t))
+	html, err := io.ReadAll(req.Body)
+	HandleErr(err)
 
-	t = time.Now()
-	sum = AddConcurrent(numbers)
-	fmt.Printf("Concurrent Add, Sum: %d,  Time Taken: %s\n", sum, time.Since(t))
+	fmt.Print(string(html))
 }

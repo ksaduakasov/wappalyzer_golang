@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	process("https://www.geeksforgeeks.org/how-to-print-string-with-double-quotes-in-golang/")
+	process("https://wtotem.com")
 }
 
 func process(url string) {
