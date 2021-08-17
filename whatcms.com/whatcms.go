@@ -1,10 +1,12 @@
 package main
 
 import (
-	"fmt"
+	"bytes"
+	"encoding/json"
 	"io"
 	"log"
 	"net/http"
+	"os"
 )
 
 //8291b3042eaf6d82b37f6af754422e479f2e454a7f094e0b8d8e978636806b79f54943
@@ -21,8 +23,11 @@ func process(url string) {
 
 	html, err := io.ReadAll(req.Body)
 	HandleErr(err)
+	var out bytes.Buffer
+	json.Indent(&out, html, "", "    ")
+	out.WriteTo(os.Stdout)
 
-	fmt.Println(string(html))
+	//fmt.Println(string(html))
 }
 
 func HandleErr(err error) {

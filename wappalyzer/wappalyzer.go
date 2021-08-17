@@ -1,11 +1,12 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 )
 
 type Entity struct {
@@ -47,13 +48,16 @@ func process(url string) {
 	if err != nil {
 		log.Fatal(err)
 	}
+	var out bytes.Buffer
+	json.Indent(&out, body, "", "    ")
+	out.WriteTo(os.Stdout)
 
-	sb := string(body)
-	var entity[] Entity
-	err = json.Unmarshal([]byte(sb), &entity)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(entity)
+	//sb := string(body)
+	//var entity[] Entity
+	//err = json.Unmarshal([]byte(sb), &entity)
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+	//fmt.Println(entity)
 
 }
