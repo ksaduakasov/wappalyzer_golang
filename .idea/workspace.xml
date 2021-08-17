@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb3c874-9f72-4a3e-9df4-ea4ed281c86b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builtWith.com/builtwith.go" beforeDir="false" afterPath="$PROJECT_DIR$/builtWith.com/builtwith.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builtWith.com/builtwith_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/builtWith.com/builtwith_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similartech.com/similartech_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/similartech.com/similartech_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatcms.com/whatcms.go" beforeDir="false" afterPath="$PROJECT_DIR$/whatcms.com/whatcms.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,35 +68,30 @@
       <recent name="$PROJECT_DIR$/unstppbl" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build awesomeProject20/builtWith.com">
-    <configuration name="go build awesomeProject20/builtWith.com" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (1)">
+    <configuration name="BenchmarkProcess in awesomeProject20/builtWith.com (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/builtWith.com" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/builtWith.com/builtwith.go" />
       <package value="awesomeProject20/builtWith.com" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QBenchmarkProcess\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject20/similartech.com" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in awesomeProject20/builtWith.com (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/builtWith.com" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/similartech.com/similartech.go" />
-      <package value="awesomeProject20/similartech.com" />
+      <package value="awesomeProject20/builtWith.com" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QBenchmarkProcess\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject20/whatcms.com" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject20" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/whatcms.com/whatcms.go" />
-      <package value="awesomeProject20/whatcms.com" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
       <working_directory value="$PROJECT_DIR$/similartech.com" />
       <framework value="gobench" />
@@ -105,12 +102,23 @@
       <pattern value="^\QBenchmarkProcess\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in awesomeProject20/similartech.com" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject20" />
       <working_directory value="$PROJECT_DIR$/similartech.com" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
       <package value="awesomeProject20/similartech.com" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QBenchmarkProcess\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkProcess in awesomeProject20/whatcms.com" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject20" />
+      <working_directory value="$PROJECT_DIR$/whatcms.com" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="awesomeProject20/whatcms.com" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QBenchmarkProcess\E$" />
@@ -118,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build awesomeProject20/builtWith.com" />
-        <item itemvalue="Go Build.go build awesomeProject20/whatcms.com" />
-        <item itemvalue="Go Build.go build awesomeProject20/similartech.com" />
-        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (3)" />
-        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (2)" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com (1)" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/similartech.com" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/whatcms.com" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/builtWith.com (2)" />
+        <item itemvalue="Go Test.BenchmarkProcess in awesomeProject20/builtWith.com (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -154,28 +162,28 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="76" width="800" height="723" key="#Intentions/0.0.1280.800@0.0.1280.800" timestamp="1628846606886" />
-    <state width="1238" height="279" key="GridCell.Tab.0.bottom" timestamp="1629190502102">
+    <state width="1238" height="252" key="GridCell.Tab.0.bottom" timestamp="1629192094133">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629190502102" />
+    <state width="1238" height="252" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1629192094133" />
     <state width="1238" height="277" key="GridCell.Tab.0.bottom/0.25.1280.707@0.25.1280.707" timestamp="1627280428330" />
     <state width="1238" height="279" key="GridCell.Tab.0.bottom/0.25.1280.714@0.25.1280.714" timestamp="1629190480946" />
-    <state width="1238" height="279" key="GridCell.Tab.0.center" timestamp="1629190502099">
+    <state width="1238" height="252" key="GridCell.Tab.0.center" timestamp="1629192094132">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629190502099" />
+    <state width="1238" height="252" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1629192094132" />
     <state width="1238" height="277" key="GridCell.Tab.0.center/0.25.1280.707@0.25.1280.707" timestamp="1627280428329" />
     <state width="1238" height="279" key="GridCell.Tab.0.center/0.25.1280.714@0.25.1280.714" timestamp="1629190480944" />
-    <state width="1238" height="279" key="GridCell.Tab.0.left" timestamp="1629190502098">
+    <state width="1238" height="252" key="GridCell.Tab.0.left" timestamp="1629192094129">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629190502098" />
+    <state width="1238" height="252" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1629192094129" />
     <state width="1238" height="277" key="GridCell.Tab.0.left/0.25.1280.707@0.25.1280.707" timestamp="1627280428328" />
     <state width="1238" height="279" key="GridCell.Tab.0.left/0.25.1280.714@0.25.1280.714" timestamp="1629190480943" />
-    <state width="1238" height="279" key="GridCell.Tab.0.right" timestamp="1629190502101">
+    <state width="1238" height="252" key="GridCell.Tab.0.right" timestamp="1629192094133">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629190502101" />
+    <state width="1238" height="252" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1629192094133" />
     <state width="1238" height="277" key="GridCell.Tab.0.right/0.25.1280.707@0.25.1280.707" timestamp="1627280428330" />
     <state width="1238" height="279" key="GridCell.Tab.0.right/0.25.1280.714@0.25.1280.714" timestamp="1629190480945" />
     <state x="267" y="65" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627122428968">

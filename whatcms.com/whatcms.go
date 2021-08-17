@@ -21,10 +21,10 @@ func process(url string) {
 	//req.Header.Add("x-api-key", "uJYNOLkDae4BkNGmLIybU8sijWH83g3B8HL5bOy8")
 	defer req.Body.Close()
 
-	html, err := io.ReadAll(req.Body)
+	body, err := io.ReadAll(req.Body)
 	HandleErr(err)
 	var out bytes.Buffer
-	json.Indent(&out, html, "", "    ")
+	json.Indent(&out, body, "", "    ")
 	out.WriteTo(os.Stdout)
 
 	//fmt.Println(string(html))
