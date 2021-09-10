@@ -29,7 +29,7 @@ type Categories struct {
 }
 
 func main() {
-	process("https://api.wappalyzer.com/lookup/v2/?urls=https://www.wtotem.com")
+	process("https://api.wappalyzer.com/lookup/v2/?urls=https://telegram.org/")
 }
 
 func process(url string) {
@@ -37,7 +37,7 @@ func process(url string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	req.Header.Set("X-Api-Key", "uJYNOLkDae4BkNGmLIybU8sijWH83g3B8HL5bOy8")
+	req.Header.Set("X-Api-Key", "lNhY8pKX65167nFKv5VyJ3O6LIJbyWlX88mBBoft")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		log.Fatal(err)
@@ -48,6 +48,7 @@ func process(url string) {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	var out bytes.Buffer
 	json.Indent(&out, body, "", "    ")
 	out.WriteTo(os.Stdout)

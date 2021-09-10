@@ -9,10 +9,8 @@ import (
 	"os"
 )
 
-//59c73eb9ec2841e4b22396c36f27e6d2
-
 func main() {
-	process("https://api.similartech.com/v1/site/wtotem.com/technologies?userkey=9ebc7232876b470d8da18c473999a1e1&format=json")
+	process("https://api.larger.io/v1/search/key/G0KM2YWNWWAFMW6DZJ7Z66XPCE6ADOJE?domain=wtotem.com")
 }
 
 func process(url string) {
@@ -20,12 +18,11 @@ func process(url string) {
 	HandleErr(err)
 	defer req.Body.Close()
 
-	body, err := io.ReadAll(req.Body)
+	html, err := io.ReadAll(req.Body)
 	HandleErr(err)
-
 	//fmt.Println(string(html))
 	var out bytes.Buffer
-	json.Indent(&out, body, "", "    ")
+	json.Indent(&out, html, "", "    ")
 	out.WriteTo(os.Stdout)
 
 	//fmt.Println(string(html))
@@ -36,3 +33,5 @@ func HandleErr(err error) {
 		log.Fatalln(err)
 	}
 }
+
+

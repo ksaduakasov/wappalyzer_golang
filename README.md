@@ -5,6 +5,7 @@
     * Builtwith.com
     * Whatcms.com
     * Similartech.com
+    * Larger.io
 
 ### Pure WAPPALYZER API
 ```go
@@ -1566,4 +1567,78 @@ PASS
 
 Process finished with exit code 0
 ```
+
+### Pure "larger.io" API 
+```go
+GOROOT=/Users/kalbek/go/go1.16.6 #gosetup
+GOPATH=/Users/kalbek/go #gosetup
+/Users/kalbek/go/go1.16.6/bin/go test -c -o /private/var/folders/dv/1sz57gbn3m9fsq4syfmg6x8m0000gn/T/___BenchmarkProcess_in_awesomeProject20_larger_io awesomeProject20/larger.io #gosetup
+/private/var/folders/dv/1sz57gbn3m9fsq4syfmg6x8m0000gn/T/___BenchmarkProcess_in_awesomeProject20_larger_io -test.v -test.bench ^\QBenchmarkProcess\E$ -test.run ^$
+goos: darwin
+goarch: amd64
+pkg: awesomeProject20/larger.io
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkProcess
+{
+    "apps": [
+        {
+            "name": "Google Analytics",
+            "version": "UA",
+            "categories": [
+                "Analytics"
+            ],
+            "icon": "",
+            "url": "google-analytics",
+            "count": "5042571"
+        },
+        {
+            "name": "HubSpot",
+            "version": "",
+            "categories": [
+                "Marketing Automation"
+            ],
+            "icon": "",
+            "url": "hubspot",
+            "count": "49282"
+        },
+        {
+            "name": "Piwik",
+            "version": "",
+            "categories": [
+                "Analytics"
+            ],
+            "icon": "",
+            "url": "piwik",
+            "count": "164802"
+        },
+        {
+            "name": "Twitter Bootstrap",
+            "version": "",
+            "categories": [
+                "Web Frameworks"
+            ],
+            "icon": "",
+            "url": "twitter-bootstrap",
+            "count": "3126621"
+        },
+        {
+            "name": "webpack",
+            "version": "",
+            "categories": [
+                "Build CI Systems"
+            ],
+            "icon": "",
+            "url": "webpack",
+            "count": "616220"
+        }
+    ],
+    "apps_count": "616220",
+    "emails": [],
+    "contact": "",
+    "url": "https:\/\/wtotem.com"
+}BenchmarkProcess-8   	       1	2208851098 ns/op
+PASS
+```
+
+
 
